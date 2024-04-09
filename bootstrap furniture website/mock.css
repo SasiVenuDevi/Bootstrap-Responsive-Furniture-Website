@@ -1,0 +1,372 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    background-color: white;
+    height: 15%;
+}
+.l{
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    
+}
+.c{
+    flex: 4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.r{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-right: 1%;
+}
+.b:hover{
+    border-bottom: 5px solid gold;
+    color: deeppink;
+    font-size: 16px;
+}
+
+
+.back1{
+    width: 100vw;
+    /* height: 90vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    background-color: gray;
+}
+.back2{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;   
+    background-color: gray;
+    background-position: center;
+}
+@media all and (max-width:800px){
+    .back2{
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: border-box;
+        background-color: gray;
+        background-position: center;
+    }
+
+}
+
+.w{
+    font-style: italic;
+}
+.word{
+     position: absolute; 
+    top: 30%;
+    left: 5%;
+}
+.wo{
+    background-color: gold;
+    padding: 5px;
+}
+.wo:hover{
+ background-color: aqua;
+ color: darkred;
+ font-size: large;
+}
+.yz{
+    text-align: center;
+    margin: 1%;
+}
+
+.fa-dollar-sign,.fa-dolly,.fa-phone{
+    background-color: grey;
+    font-size: 25px;
+    color: purple;
+    text-align: center;
+}
+.imga{
+    height: 200px;
+    margin: 1%;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1%;
+}
+.zy{
+    text-align: center;
+    flex: 1;
+}
+.yu{
+    text-decoration: underline 5px goldenrod;
+}
+.yu:hover{
+    text-decoration: underline 5px darkmagenta;
+}
+.two{
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.abc1,.abc2,.abc3,.abc4{
+    width: 200px;
+    height: 250px;
+    box-sizing: border-box;
+}
+.abc1,.abc2,.abc3,.abc4{
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media all and (max-width:600px){
+    .one{
+        flex-direction: column;
+    }
+    .abc1,.abc2,.ab3,.ab4{
+        width: 250px;
+        height: 160px;
+    }
+    .zy{
+        line-height: 0.9;
+        font-size: 12px;
+    }
+    .yz{
+        line-height: 0.8;
+        font-size: 12px;
+    }
+}
+.bulb{
+    width: 100vw;
+    height: 50vh;
+    box-sizing: border-box;
+}
+.bulbimg{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/home-filler.jpeg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    background-attachment: fixed;
+    background-position: center;
+}
+.bub{
+    text-align: center;
+     color: white; 
+     background-color: transparent;
+     padding-top: 8%;
+
+}
+.bu{
+    color: gold;
+    text-decoration: underline 5px goldenrod;
+}
+.bu:hover{
+    color: darkred;
+    font-size: large;
+    font-weight: 600;
+    text-decoration: underline 5px darkmagenta;
+}
+.aa{
+ text-align: center;
+ margin-top: 1%;
+
+}
+.rowing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.nm{
+ text-align: center;
+ margin: 1%;
+ width: 400px;
+ padding: 5px;
+}
+.mn{
+    background-color: grey;
+    margin: 1%;
+}
+
+@media all and (max-width:770px) and (max-width:1050px){
+    .nm{
+        width: 320px;
+        margin: 1%;
+    }
+    .b{
+        font-size: 12px;
+        color: darkred;
+    }
+}
+@media all and (min-width:771px){
+    .nm{
+        width: 350px;
+        margin: 1%;
+    }
+}  
+.none{
+    background-color: grey;
+}
+
+.subs{
+    background-color: goldenrod;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.dfg{
+    text-align: center;
+    background-color: white;
+}
+
+.high{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+.po1{
+    text-align: justify;
+    margin: 1%;
+    display: flex;
+    
+}
+.h4{
+    color: white;
+}
+.p{
+    color: gray;
+}
+.fa-truck,.fa-hand-holding-dollar,.fa-ribbon{
+    color: purple;
+}
+.h2{
+    color: goldenrod;
+    border: 2px solid gold;
+}
+.fa-facebook,.fa-twitter,.fa-youtube,.fa-google-plus,.fa-square-instagram,.fa-phone,.fa-envelope,.fa-location-dot{
+    color: purple;
+    font-size: 25px;
+}
+.bnm{
+    line-height: 1.2;
+    text-align: center;
+ 
+}
+.pa{
+    color: lightyellow;
+}
+.mnb{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    
+}
+.vcx1,.vcx2,.vcx3{
+    flex: 1;
+    text-align: justify;
+    display: flex;
+     
+}
+.mnbv{
+    background-color: grey;
+    padding: 5px;
+}
+.fa-square-envelope{
+    color:darkmagenta;
+    font-size: 30px;
+}
+.btn1{
+    font-weight: 500;
+    width: 200px;
+    border: 5px solid darkorange;
+    color: darkblue;
+    font-size: 24px;
+
+}
+.po8{
+    display: flex;
+    flex-direction: column;
+}
+@media all and (max-width:770px){
+    .vcx1,.vcx2,.vcx3{
+        font-size: 12px;
+    }
+}
+.nm:hover,.ab1:hover,.ab2:hover,.ab3:hover,.ab4:hover{
+    transform: scale(0.9);
+}
+.fa-solid:hover,.fa-brands:hover{
+    color: darkred;
+    font-size: 35px;
+}
+button:hover{
+    color: darkred;
+    background-color: lightseagreen;
+    font-weight: 800;
+    letter-spacing: 0.25rem;
+    border: 2px solid darkorange;
+    box-shadow: 5px 5px 5px darkred;
+}
+.btn1:hover {
+    font-weight: 500;
+    color: darkblue;
+    font-size: 28px;
+    border: 5px solid darkorange;
+    letter-spacing: 0.1rem;
+    box-shadow: 5px 5px 5px darkred;
+}
+h1:hover{
+    color: darkred;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3:hover,h4:hover,h2:hover{
+    color: darkorange;
+    font-weight: 400;
+}
+.abc1:hover,.abc2:hover,.abc3:hover,.abc4:hover{
+    transform: scale(1.2);
+}
+button::before{
+    content: '';
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 3;
+}
+ul li{
+    list-style: none;
+    list-style-type: none;
+}
+
+.b{
+    text-decoration: none;
+    font-size: 16px;
+    color: darkred;
+    font-weight: 600;
+}
+.l:hover{
+    transform: translate(40px);
+}
